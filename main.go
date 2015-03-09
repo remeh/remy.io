@@ -21,7 +21,7 @@ func main() {
 	http.Handle("/resume", &cv)
 
 	// And static serving.
-	http.Handle("/", http.FileServer(http.Dir("web")))
+	http.Handle("/", http.FileServer(http.Dir("/remy.io/web/")))
 
 	http.ListenAndServe(":8080", nil)
 }
