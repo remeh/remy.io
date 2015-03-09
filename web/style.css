@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #333;
+  letter-spacing: 0.05em;
+  background-color: #f5f5f5;
+}
+img#gravatar {
+  border-radius: 60px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+hr {
+  border: 0;
+  box-shadow: 0 0 1px 1px #efefef;
+}
+li {
+  padding-left: 3em;
+}
+span.green {
+  color: #8bce55
+}
+a {
+  color: #8bce55;
+  font-weight: bold;
+}
+ul#list-intro {
+  margin-bottom: 3em;
+}
