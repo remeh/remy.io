@@ -1,11 +1,11 @@
 FROM golang:1.4
 
-COPY . /remy.io/src/
+COPY . /remy.io
 COPY ./web /remy.io/web
 
-RUN cd /remy.io/src \
+RUN cd /remy.io \
     && go build
 
 EXPOSE 8080
 
-ENTRYPOINT ["/remy.io/src/remy.io"]
+ENTRYPOINT ["/remy.io/remy.io"]
