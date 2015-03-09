@@ -23,5 +23,5 @@ func main() {
 	// And static serving.
 	http.Handle("/", http.FileServer(http.Dir("web")))
 
-	http.ListenAndServe(":8085", nil)
+	http.ListenAndServe(":8080", nil)
 }
