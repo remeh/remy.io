@@ -10,8 +10,8 @@ type CvHandler struct {
 }
 
 func (c *CvHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Location", "/cv.html")
 	w.WriteHeader(302)
-	w.Header().Set("Location", "cv.html")
 }
 
 func main() {
@@ -21,7 +21,7 @@ func main() {
 	http.Handle("/resume", &cv)
 
 	// And static serving.
-	http.Handle("/", http.FileServer(http.Dir("/remy.io/web/")))
+	http.Handle("/", http.FileServer(http.Dir("web/")))
 
 	http.ListenAndServe(":8080", nil)
 }
