@@ -1,0 +1,12 @@
+[Unit]
+Description=remy.io
+After=docker.service
+Requires=docker.service
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/usr/bin/docker run --rm -p 8080:8080 remy.io
+ExecStop=/usr/bin/docker kill remy.io 
+
+[Install]
+WantedBy=multi-user.target
