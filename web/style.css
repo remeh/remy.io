@@ -52,12 +52,25 @@ a {
 div.title-container {
   padding: 1em;
   padding-left: 0;
+  text-align: center;
+}
+
+span.cv-title span.cv-title-first {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2.0em;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.logo {
 }
 
 span.cv-title {
-  padding: 1.5em;
-  font-size: 2.0em;
-  letter-spacing: 0.5em;
+  font-size: 3.0em;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0px;
 }
 
 span.cv-details {
@@ -74,4 +87,34 @@ blockquote.cv-description {
   ul#menu li {
     width: 100%;
   }
+}
+
+span.smaller {
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 480px) {
+  .work-label {
+    padding-left: 2em;
+  }
+}
+
+.work-label strong {
+  font-size: 2em;
+}
+
+.work-label span {
+  padding: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.work-container {
+  padding-bottom: 1em;
+}
+
+.work-description {
+  margin: 1em;
+  background-color: #fafafa;
+  padding: 1em;
 }
