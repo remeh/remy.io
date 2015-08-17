@@ -16,9 +16,9 @@ func (c *CvHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	// CV redirects of old uris.
-	cv := CvHandler{}
-	http.Handle("/cv", &cv)
-	http.Handle("/resume", &cv)
+	//cv := CvHandler{}
+	//	http.Handle("/cv", &cv)
+	//http.Handle("/resume", &cv)
 
 	// And static serving.
 	http.Handle("/", http.FileServer(http.Dir("web/")))
