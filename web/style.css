@@ -118,3 +118,14 @@ span.smaller {
   background-color: #fafafa;
   padding: 1em;
 }
+
+img.full-size {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  margin-bottom: 5em;
+}
