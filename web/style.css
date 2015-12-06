@@ -129,3 +129,17 @@ img.full-size {
 footer {
   margin-bottom: 5em;
 }
+
+.btn {
+  background-color: #8BCE55;
+  border-color: #8BCE55;
+}
+
+.btn:hover {
+  background-color: #337AB7;
+  border-color: #337AB7;
+}
+
+.btn-index {
+  color: white;
+}
