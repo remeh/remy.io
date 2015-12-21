@@ -154,3 +154,16 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
+
+#overplayer {
+  min-height: 290px;
+  width: 100%;
+  background-image: url('splashscreen.png');
+  background-position: center;
+  cursor: pointer;
+}
+
+#player {
+  display: none;
+}
+
