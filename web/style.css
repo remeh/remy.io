@@ -133,18 +133,27 @@ footer {
   margin-bottom: 5em;
 }
 
-.btn {
+.btn-green {
   background-color: #8BCE55;
   border-color: #8BCE55;
+  color: white;
 }
 
-.btn:hover {
+.btn-green:hover {
   background-color: #337AB7;
   border-color: #337AB7;
 }
 
-.btn-index {
-  color: white;
+.btn-dark {
+  margin: 1px;
+  background-color: #333;
+  border-color: #333;
+  color:white;
+}
+
+.btn-dark:hover {
+  background-color: #8BCE55;
+  border-color: #8BCE55;
 }
 
 .flex-content {
@@ -167,3 +176,16 @@ footer {
   display: none;
 }
 
+img.os {
+  width: 100px;
+}
+
+.os-cell {
+  padding-top: 1em;
+  min-height: 220px;
+  height: 220px;
+}
+
+p.sources {
+  padding: 4em;
+}
