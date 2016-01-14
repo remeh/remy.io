@@ -79,7 +79,6 @@ span.cv-title {
 span.cv-details {
   color: #ccc;
   font-size: 1.5rem;
-  margin-left: 2em;
 }
 
 blockquote.cv-description {
@@ -112,14 +111,15 @@ span.smaller {
   padding-right: 1em;
 }
 
-.work-container {
-  padding-bottom: 1em;
-}
-
-.work-description {
-  margin: 1em;
+.cv-container {
   background-color: #fafafa;
   padding: 1em;
+  margin: 1em;
+  box-shadow: 3px 3px 8px #e8e8e8;
+}
+
+.cv-container:hover {
+  box-shadow: 3px 3px 8px #dbdbdb;
 }
 
 img.full-size {
@@ -193,4 +193,44 @@ p.sources {
 h1.mehstation {
   font-size: 5em;
   letter-spacing: -6px;
+}
+
+span.work-company {
+  padding: 0px;
+  font-size: 1.1em;
+}
+span.work-sub-company {
+  padding: 0px;
+  font-size: 1.4em;
+  padding-left: 0em;
+  margin-bottom: 0.3em;
+  display: block;
+}
+
+span.work-company-website {
+  bottom: 0px;
+  padding-left: 0px;
+}
+.work-description {
+  margin: 1em;
+  padding: 3em;
+  padding-bottom: 1em;
+}
+span.work-job {
+  font-size: 1.4em;
+  padding-left: 0px;
+}
+.work-description li {
+  padding-bottom: 0.3em;
+}
+span.work-period {
+  padding-top: 1em;
+}
+span.diploma-title {
+  padding: 0px;
+  font-size: 0.7em;
+}
+span.diploma-details {
+  padding: 0px;
+  font-size: 1.2em;
 }

@@ -7,6 +7,17 @@
     <title>R&eacute;my Mathieu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Rémy Mathieu's personal homepage.">
+    <script>
+      function showInternships() {
+        document.getElementById('show-internships').style.display = 'none';
+        var internships = [].slice.call(document.getElementsByClassName('internship'));
+        if (internships) {
+          internships.map(function(internship) {
+            internship.style.display = '';
+          });
+        }
+      };
+    </script>
   </head>
   <body>
     <div class="container">
@@ -25,79 +36,156 @@
     </div>
     <div class="container">
       <div class="row-fluid">
-        <h2><strong>R&eacute;my Mathieu</strong><span class="cv-details">French, 26 years old</span></h2>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row title-container">
-        <span class="cv-title"><span class="cv-title-first">W</span>ork experience</span>
+        <h1 class="text-center">
+          <strong>R&eacute;my Mathieu</strong><br/>
+          <span style="font-size: 0.7em">R&D Software Engineer</span><br/>
+          <span class="cv-details">French, 27 years old</span>
+        </h1>
       </div>
     </div>
     <div class="container content-cv">
-      <div class="work-container">
+      <h2 style="color: #ccc;" class="text-center">Work Experience</h2>
+      <div class="cv-container">
+
         <div class="work-label">
-          <strong>Sentryo</strong>
-          <span class="smaller"><em>2014-12 / Nowadays</em></span>
-          <span class="smaller"><em>Lyon, France</em></span>
+          <div class="row">
+            <div class="col-md-8">
+              <span class="work-company"><strong>Sentryo</strong></span>
+            </div>
+            <div class="col-md-4">
+              <span class="work-period pull-right">2014-12 / Nowadays</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="work-job">
+                R&D Software Engineer
+              </span>
+            </div>
+            <div class="col-md-6">
+              <span class="work-company-website pull-right"><a href="http://sentryo.net">http://sentryo.net</a></span>
+            </div>
+          </div>
         </div>
         <div class="work-description">
-          <strong style="font-size: 1.2em">R&D Engineer</strong><br />
+          <ul>
+            <li>Multiple features of data serving, network & data analyzes, data manipulation and reporting on large datasets. <strong>Go, PostgreSQL, Git.</strong></li>
+            <li>Realtime visualization in a 2D map of large and complex industrial networks. <strong>HTML5, Polymer, Angular, Go, Git..</strong></li>
+          </ul>
         </div>
-        <div class="clear"></div>
+
       </div>
-      <div class="work-container">
+
+
+      <div class="cv-container">
+
         <div class="work-label">
-          <strong>AppGratis / Batch</strong>
-          <span class="smaller"><em>2012-09 / 2014-12</em></span>
-          <span class="smaller"><em>Lyon, France</em></span>
+          <div class="row">
+            <div class="col-md-8">
+              <span class="work-company"><strong>AppGratis - Batch</strong></span>
+            </div>
+            <div class="col-md-4">
+              <span class="work-period pull-right">2012-09 / 2014-12</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="work-job">
+                Backend Engineer
+              </span>
+            </div>
+            <div class="col-md-6">
+              <span class="work-company-website pull-right"><a href="https://appgratis.com">https://appgratis.com</a> - <a href="https://batch.com">https://batch.com</a></span>
+            </div>
+          </div>
         </div>
         <div class="work-description">
-          <strong>Backend Engineer - Batch</strong><br />
+          <span class="work-sub-company">Batch</span>
           <ul>
             <li>Push notifications perfectly targeted to all your mobile users. System scaled for billions of push per days. <strong>Java, Go, Cassandra, Apache Storm, Docker</strong></li>
-            <li>SaaS system to simply create special offers for your mobile applications with remote management and full statistics. <strong>Java, Redis, Cassandra</strong></li>
+            <li>SaaS solution to easily create special offers for your mobile applications with remote management and complete analytics. <strong>Java, Redis, Cassandra</strong></li>
           </ul>
-        </div>
-        <div class="work-description">
-          <strong>Backend Engineer - AppGratis</strong><br />
+          <span class="work-sub-company">AppGratis</span>
           <ul>
-            <li>Webservice of synchronization and content publishing of offers displayed in the mobile applications. Scaled to support the massive amount of request. <strong>Java/Play! Framework, MySQL.</strong></li>
-            <li>Daily newsletter system sending millions of localized emails. <strong>Java/Play! Framework, MongoDB.</strong></li>
-            <li>Company backoffice used to write the content published in the mobile applications. <strong>PHP/Symfony2/jQuery, MySQL.</strong></li>
+            <li>Webservices of synchronization and content serving of offers displayed in the mobile applications. Scaled to support the massive amount of requests. <strong>Java, Cassandra, MySQL, Docker, Git.</strong></li>
+            <li>Daily newsletter system sending millions of localized emails. <strong>Java, MongoDB, Git.</strong></li>
+            <li>Company backoffice used to write and publish the content in the mobile applications. <strong>PHP/Symfony2, MySQL, Git.</strong></li>
           </ul>
         </div>
-        <div class="clear"></div>
+
       </div>
-      <div class="work-container">
+
+      <div class="cv-container">
+
         <div class="work-label">
-          <strong>Business-Geografic</strong>
-          <span class="smaller"><em>2009-09 / 2012-09</em></span>
-          <span class="smaller"><em>Villeurbanne, France</em></span>
+          <div class="row">
+            <div class="col-md-8">
+              <span class="work-company"><strong>Business Geografic</strong></span>
+            </div>
+            <div class="col-md-4">
+              <span class="work-period pull-right">2009-09 / 2012-09</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="work-job">
+                Apprentice Software Engineer
+              </span>
+            </div>
+            <div class="col-md-6">
+              <span class="work-company-website pull-right"><a href="https://business-geografic.com">https://business-geografic.com</a></span>
+            </div>
+          </div>
         </div>
+
+
         <div class="work-description">
-          <strong>Apprentice software engineer</strong><br />
           <ul>
-            <li>Developer on the new version of Business-Geografic's map application generator AIGLE.</li>
-            <li>Worked in the r&d team using the Agile method on different features : the render system, software watchdog, data reading/transformation/writing. <strong>(Java, SQL, OSGi, SaaS)</strong></li>
+            <li>Developed a library to Extract, Transform and Load different SIG file and data formats. <strong>Java, Oracle, PostgreSQL</strong></li>
+            <li>Worked in the r&d team using the Agile method on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
           </ul>
         </div>
-        <div class="clear"></div>
       </div>
-      <div class="work-container">
+
+      <div class="cv-container" id="show-internships">
+        <div class="text-center">
+          <a style="cursor: pointer;" onclick="showInternships()">See internships</a>
+        </div>
+      </div>
+
+      <div class="cv-container internship" style="display: none;">
+
         <div class="work-label">
-          <strong>Xetec</strong><br />
-          <span class="smaller"><em>2011-07 / 2011-08</em></span><br />
-          <span class="smaller"><em>Bray, Ireland</em></span>
+          <div class="row">
+            <div class="col-md-8">
+              <span class="work-company"><strong>Xetec</strong></span>
+            </div>
+            <div class="col-md-4">
+              <span class="work-period pull-right">2011-07 / 2011-08</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="work-job">
+                Developer
+              </span>
+            </div>
+            <div class="col-md-6">
+              <span class="work-company-website pull-right"><a href="http://xetec.ie">http://xetec.ie</a></span>
+            </div>
+          </div>
         </div>
+
+
         <div class="work-description">
-          <strong>Internship</strong><br />
           <ul>
-              <li>Developed a multi-platform mobile application used to validate electrical installations (Sencha Touch, Javascript) and a PHP webservice receiving data from the mobile app to store the data.</li>
+            <li>Mobile application to fill and validate electrical installations. <strong>Sencha Touch, Javascript</strong></li>
+            <li>Webservice to store and administrate electrical installations configuration. <strong>PHP, MySQL</strong></li>
           </ul>
         </div>
-        <div class="clear"></div>
       </div>
-      <div class="work-container">
+
+      <div class="cv-container internship" style="display: none;">
         <div class="work-label">
           <strong>Technodigit</strong><br />
           <span class="smaller"><em>2008-06 / 2008-08</em></span><br />
@@ -111,6 +199,70 @@
         </div>
         <div class="clear"></div>
       </div>
+    </div>
+
+    <div class="container content-cv">
+      <h2 style="color: #ccc;" class="text-center">Education</h2>
+      <div class="cv-container">
+
+        <div class="work-label">
+          <div class="row">
+            <div class="col-md-9">
+              <span class="diploma-title"><strong>Ecole supérieure de Chimie Physique Electronique de Lyon / CPE Lyon</strong></span>
+            </div>
+            <div class="col-md-3">
+              <span class="work-period pull-right">2009-09 / 2012-09</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span class="diploma-details">
+                Engineering Degree in networks and programming
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cv-container">
+        <div class="work-label">
+          <div class="row">
+            <div class="col-md-9">
+              <span class="diploma-title"><strong>IUT Annecy-le-Vieux</strong></span>
+            </div>
+            <div class="col-md-3">
+              <span class="work-period pull-right">2006-09 / 2008-09</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span class="diploma-details">
+                DUT Informatique
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cv-container">
+        <div class="work-label">
+          <div class="row">
+            <div class="col-md-9">
+              <span class="diploma-title"><strong>Cambridge Certificate of Advanced English (CAE)</strong></span>
+            </div>
+            <div class="col-md-3">
+              <span class="work-period pull-right">2012-06</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span class="diploma-details">
+                C2 European Level
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </div>
   </body>
 </html>
