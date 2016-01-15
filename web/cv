@@ -34,7 +34,7 @@
         <div class="col-md-10">
           <ul class="nav nav-pills" id="menu">
             <li class="text-center">
-              <img id="gravatar" src="http://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar"> 
+              <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar"> 
             </li>
             <li role="presentation"><a href="/" title="Home page - Rémy Mathieu">About</a></li>
             <li role="presentation" class="active"><a href="/" title="CV - Rémy Mathieu">CV</a></li>
@@ -150,7 +150,7 @@
         <div class="description">
           <ul>
             <li>Developed a library to Extract, Transform and Load different SIG file and data formats. <strong>Java, Oracle, PostgreSQL</strong></li>
-            <li>Worked in the r&d team using the Agile method on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
+            <li>Worked in the R&D team on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
           </ul>
         </div>
       </div>
