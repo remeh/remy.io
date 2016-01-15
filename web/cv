@@ -17,6 +17,15 @@
           });
         }
       };
+      function contact() {
+        var str = 'abcdefghijklmnopqrstuvwxyz@.:';
+        //         01234567890123456789012345678
+        var a = str[12] + str[0] + str[8] + str[11] + str[19] + str[14] + str[28];
+        var z = str[12] + str[4] + str[26] + str[17] + str[4] + str[12] + str[24] + str[27] + str[8] + str[14];
+        document.getElementById('show-contact').style.display = 'none';
+        document.getElementById('me').style.display = '';
+        document.getElementById('me').innerHTML = '<a href='+a+z+'>'+z+'</a>';
+      };
     </script>
   </head>
   <body>
@@ -66,7 +75,7 @@
             </div>
           </div>
         </div>
-        <div class="work-description">
+        <div class="description">
           <ul>
             <li>Multiple features of data serving, network & data analyzes, data manipulation and reporting on large datasets. <strong>Go, PostgreSQL, Git.</strong></li>
             <li>Realtime visualization in a 2D map of large and complex industrial networks. <strong>HTML5, Polymer, Angular, Go, Git.</strong></li>
@@ -98,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="work-description">
+        <div class="description">
           <span class="work-sub-company">Batch</span>
           <ul>
             <li>Push notifications perfectly targeted to all your mobile users. System scaled for billions of push per days. <strong>Java, Go, Cassandra, Apache Storm, Docker</strong></li>
@@ -138,7 +147,7 @@
         </div>
 
 
-        <div class="work-description">
+        <div class="description">
           <ul>
             <li>Developed a library to Extract, Transform and Load different SIG file and data formats. <strong>Java, Oracle, PostgreSQL</strong></li>
             <li>Worked in the r&d team using the Agile method on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
@@ -166,17 +175,16 @@
           <div class="row">
             <div class="col-xs-6">
               <span class="work-job">
-                Developer
+                Developer<em class="work-job-details">, internship in Ireland</em>
               </span>
+              
             </div>
             <div class="col-md-6">
               <span class="work-company-website pull-right"><a href="http://xetec.ie">http://xetec.ie</a></span>
             </div>
           </div>
         </div>
-
-
-        <div class="work-description">
+        <div class="description">
           <ul>
             <li>Mobile application to fill and validate electrical installations. <strong>Sencha Touch, Javascript</strong></li>
             <li>Webservice to store and administrate electrical installations configuration. <strong>PHP, MySQL</strong></li>
@@ -185,18 +193,35 @@
       </div>
 
       <div class="cv-container internship" style="display: none;">
+
         <div class="work-label">
-          <strong>Technodigit</strong><br />
-          <span class="smaller"><em>2008-06 / 2008-08</em></span><br />
-          <span class="smaller"><em>Gleiz&eacute;, France</em></span>
+          <div class="row">
+            <div class="col-md-8">
+              <span class="work-company"><strong>Technodigit</strong></span>
+            </div>
+            <div class="col-md-4">
+              <span class="work-period pull-right">2008-06 / 2008-08</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="work-job">
+                C++ Developer<em class="work-job-details">, internship</em>
+              </span>
+            </div>
+            <div class="col-md-6">
+              <span class="work-company-website pull-right"><a href="http://technodigit.com">http://technodigit.com</a></span>
+            </div>
+          </div>
         </div>
-        <div class="work-description">
-          <strong>C++ Developer</strong><br />
+
+
+        <div class="description">
           <ul>
-            <li>10-weeks internship followed by a 2-months contract : developed new features in the 3D modeling and meshing software 3D Reshaper, stretching of 3-dimensional lines, helper to automaticly position and adapt teeth on a jaw.</li>
-            </ul>
+            <li>Developed the stretching of 3-dimensional lines feature in the 3D modeling and meshing software 3D Reshaper. <strong>C++, OpenGL</strong></li>
+            <li>Feature to automatically position and adapt teeth on 3D jaws. <strong>C++, OpenGL</strong></li>
+          </ul>
         </div>
-        <div class="clear"></div>
       </div>
     </div>
 
@@ -262,14 +287,18 @@
       </div>
     </div>
     
-    <div class="container contact-me">
+    <div class="container content-cv" id="contact-container">
+      <h2 style="color: #ccc;" class="text-center">Contact</h2>
       <div class="row">
-        <div class="col-md-offset-5 col-md-2">
-          <button class="btn btn-lg btn-green contact-me">Contact me</button>
+        <div class="cv-container description">
+          <ul>
+            <li><strong>Email</strong> <a style="cursor: pointer;" onclick="contact()" id="show-contact">Click to reveal</a><span id="me" style="display: none;"></span></li>
+            <li><strong>GitHub</strong> <a href='https://github.com/remeh' title='Rémy Mathieu on Github'>remeh</a></li>
+            <li><strong>Twitter</strong> <a href='https://twitter.com/remeh' title='Rémy Mathieu on Twitter'>remeh</a></li>
+            <li><strong>LinkedIn</strong> <a href='http://www.linkedin.com/profile/view?id=183983433' title='Rémy Mathieu on LinkedIn'>Rémy Mathieu</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-
     </div>
   </body>
 </html>

@@ -82,10 +82,6 @@ span.cv-details {
   font-size: 1.5rem;
 }
 
-blockquote.cv-description {
-  font-size: 1.1rem;
-}
-
 @media screen and (max-width: 480px) {
   ul#menu li {
     width: 100%;
@@ -207,12 +203,14 @@ span.work-sub-company {
   margin-bottom: 0.3em;
   display: block;
 }
-
+#show-contact-container {
+  margin-bottom: 4em;
+}
 span.work-company-website {
   bottom: 0px;
   padding-left: 0px;
 }
-.work-description {
+.description {
   margin: 1em;
   padding: 3em;
   padding-bottom: 1em;
@@ -221,7 +219,7 @@ span.work-job {
   font-size: 1.4em;
   padding-left: 0px;
 }
-.work-description li {
+.description li {
   padding-bottom: 0.3em;
 }
 span.work-period {
@@ -235,10 +233,14 @@ span.diploma-details {
   padding: 0px;
   font-size: 1.2em;
 }
-div.contact-me {
-  padding: 2em;
-}
 button.contact-me {
   width: 100%;
   font-weight: bold;
+}
+#contact-container {
+  margin-bottom: 2em;
+}
+.work-job-details {
+  font-size: 0.7em;
+  margin: 0px;
 }
