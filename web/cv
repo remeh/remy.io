@@ -289,8 +289,8 @@
     
     <div class="container content-cv" id="contact-container">
       <h2 style="color: #ccc;" class="text-center">Contact</h2>
-      <div class="row">
-        <div class="cv-container description">
+      <div class="cv-container">
+        <div class="row description">
           <ul>
             <li><strong>Email</strong> <a style="cursor: pointer;" onclick="contact()" id="show-contact">Click to reveal</a><span id="me" style="display: none;"></span></li>
             <li><strong>GitHub</strong> <a href='https://github.com/remeh' title='Rémy Mathieu on Github'>remeh</a></li>
