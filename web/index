@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <link type="text/css" rel='stylesheet' href='minimal-bootstrap.min.css'>
+    <link type="text/css" rel='stylesheet' href='style.css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <title>R&eacute;my Mathieu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rémy Mathieu's personal homepage, backend, r&d, engineer, passionate, developer">
+    <meta name="google-site-verification" content="3nKXARhUvMjgVdjz9-rIYQ1rN5lVHCpCyV-c8ci-a8k" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="nav nav-pills" id="menu">
+            <li class="text-center">
+              <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar">
+            <li role="presentation" class="active"><a href="/" title="Home page - Rémy Mathieu">About</a></li>
+            <li role="presentation"><a href="/cv.html" title="CV - Rémy Mathieu">CV</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row-fluid">
+        <h2>My name is <strong>R&eacute;my Mathieu</strong></h2>
+        <ul id="list-intro" class="list-unstyled">
+          <li>I love to code, create and learn new things in IT.</li>
+          <li><strong>R&D Engineer</strong> at <a href="http://sentryo.net" title="Current employer">Sentryo</a>, former <strong>Backend Engineer</strong> at <a href="https://batch.com" title="Previous employer">Batch</a> and <a href="https://appgratis.com" title="Previous employer">AppGratis</a>.</li>
+          <li>Visit my <a href='https://github.com/remeh' title='Github'>github</a>, <a href='http://www.linkedin.com/profile/view?id=183983433' title='LinkedIn'>linkedin profile</a>, <a href='http://twitter.com/remeh' title='Twitter'>twitter</a> or take a look at some of my projects below.</li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+    <div class="container flex-content">
+      <div class="row-fluid">
+        <div class="col-lg-6">
+          <h3><strong>mehstation</strong></h3>
+          <p>mehstation is a opensource multi-platform frontend launcher, fully usable from a gamepad or a keyboard. <a href="mehstation.html" alt="Click here for more information.">Go to mehstation page.</a></p>
+        </div>
+        <div class="col-lg-3">
+          <a href="https://c.remy.io/PNjveqzp" alt="Click for fullscreen" target="_blank">
+            <img class="full-size" src="https://c.remy.io/oH0ki0Su?w=480&h=270" alt="Executables list of mehstation"  style="margin-top: 30px;"/>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="https://c.remy.io/UWI1B1Ue" alt="Click for fullscreen" target="_blank">
+            <img class="full-size" src="https://c.remy.io/UWI1B1Ue?w=426&h=335" alt="Configuration app" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
