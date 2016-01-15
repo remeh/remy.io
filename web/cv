@@ -3,7 +3,7 @@
   <head>
     <link type="text/css" rel='stylesheet' href='minimal-bootstrap.min.css'>
     <link type="text/css" rel='stylesheet' href='style.css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <title>R&eacute;my Mathieu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Rémy Mathieu's personal homepage.">
@@ -150,7 +150,7 @@
         <div class="description">
           <ul>
             <li>Developed a library to Extract, Transform and Load different SIG file and data formats. <strong>Java, Oracle, PostgreSQL</strong></li>
-            <li>Worked in the R&D team on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
+            <li>Worked in the &D team on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
           </ul>
         </div>
       </div>
