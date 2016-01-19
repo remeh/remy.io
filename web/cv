@@ -141,7 +141,7 @@
               </span>
             </div>
             <div class="col-md-6">
-              <span class="work-company-website pull-right"><a href="https://business-geografic.com">https://business-geografic.com</a></span>
+              <span class="work-company-website pull-right"><a href="http://business-geografic.com">http://business-geografic.com</a></span>
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@
         <div class="description">
           <ul>
             <li>Developed a library to Extract, Transform and Load different SIG file and data formats. <strong>Java, Oracle, PostgreSQL</strong></li>
-            <li>Worked in the &D team on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
+            <li>Worked in the R&D team on different features of the "map application generator" AIGLE : the render system, software watchdog, data reading/transformation/writing. <strong>Java, SQL, OSGi, SaaS</strong></li>
           </ul>
         </div>
       </div>

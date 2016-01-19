@@ -187,7 +187,7 @@ p.sources {
   padding: 4em;
 }
 
-h1.mehstation {
+h1.project-title {
   font-size: 5em;
   letter-spacing: -6px;
 }
@@ -243,4 +243,7 @@ button.contact-me {
 .work-job-details {
   font-size: 0.7em;
   margin: 0px;
+}
+.project-row {
+  margin-bottom: 3em;
 }
