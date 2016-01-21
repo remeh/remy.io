@@ -79,6 +79,7 @@
           <ul>
             <li>Multiple features of data serving, network & data analyzes, data manipulation and reporting on large datasets. <strong>Go, PostgreSQL, Git.</strong></li>
             <li>Realtime visualization in a 2D map of large and complex industrial networks. <strong>HTML5, Polymer, Angular, Go, Git.</strong></li>
+            <li>Contributions to the build of the hardware’s custom Linux distribution and its embedded softwares. <strong>Yocto, Python, Bash</strong></li>
           </ul>
         </div>
 
