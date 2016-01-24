@@ -28,9 +28,14 @@
             Sharing a file as easy as sharing an URL and it is multi-platform with a fancy client for <strong>Mac OS X, iOS, Android and the command-line</strong>.
           </p>
         </div>
-        <div class="col-lg-4">
-          <a href="https://c.remy.io/sdrEvZDc" alt="Click for fullscreen" target="_blank">
-            <img class="full-size" src="https://c.remy.io/sdrEvZDc" alt="Executables list" />
+        <div class="col-lg-2">
+          <a href="https://c.remy.io/Le1HaJ9M" alt="Click for fullscreen" target="_blank">
+            <img src="https://c.remy.io/Le1HaJ9M?h=180&w=180" alt="Mac app" />
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a href="https://c.remy.io/qzAHLCo7" alt="Click for fullscreen" target="_blank">
+            <img src="https://c.remy.io/qzAHLCo7?h=180&w=100" alt="Android app" />
           </a>
         </div>
       </div>
@@ -73,44 +78,22 @@
       <h1>Download <strong>upd</strong></h1>
       <br>
       <div class="os-cell row-fluid">
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-6 text-center">
           <div class="os-cell">
-            <img src="win.png" alt="Windows logo" class="os">
-            <h3>Windows</h3>
+            <img src="cogs.png" alt="Server and CLI" class="os">
+            <h3>Server and CLI client</h3>
+            <h4>Windows, Mac, Linux</h4>
           </div>
-          <a href="files/mehstation-1.0.zip"><button type="button" class="btn btn-dark btn-sm">Download ZIP 1.0</button></a>
+          <a href="https://github.com/remeh/upd"><button type="button" class="btn btn-dark btn-sm">Sources on Github</button></a>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-6 text-center">
           <div class="os-cell">
-            <img src="debian.png" alt="Debian logo" class="os">
-            <h3>Debian</h3>
+            <img src="mobile.png" alt="Server and CLI" class="os">
+            <h3>Mac OSX, Android and iOS</h3>
+            <h4>By <a href="https://github.com/abarisain">abarisain</h4>
           </div>
-          <a href="files/mehstation-1.0.deb"><button type="button" class="btn btn-dark btn-sm">Download DEB 1.0</button></a>
-          <a href="https://github.com/remeh/mehstation/wiki/Compilation-guide-on-Debian-Jessie"><button type="button" class="btn btn-dark btn-sm">Compilation Guide</button></a>
+          <a href="https://github.com/abarisain/skugga"><button type="button" class="btn btn-dark btn-sm">Sources on Github</button></a>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="os-cell">
-            <img src="rasp.png" alt="Raspberry Pi logo" class="os">
-            <h3>Raspberry Pi</h3>
-          </div>
-          <a href="https://github.com/remeh/mehstation/wiki/Compilation-guide-on-Raspberry-Raspbian-Jessie"><button type="button" class="btn btn-dark btn-sm">Compilation Guide</button></a>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="os-cell">
-            <img src="arch.png" alt="Arch Linux logo" class="os">
-            <h3>ArchLinux</h3>
-          </div>
-          <a href="files/PKGBUILDs/"><button type="button" class="btn btn-dark btn-sm">PKGBUILDs</button></a>
-          <a href="https://github.com/remeh/mehstation/wiki/Compilation-guide-on-ArchLinux"><button type="button" class="btn btn-dark btn-sm">Compilation Guide</button></a>
-        </div>
-      </div>
-      <br>
-    </div>
-    <div class="container text-center">
-      <div class="row-fluid">
-        <p class="sources">
-          or <a href="https://github.com/remeh/mehstation">Sources on GitHub</a>.
-        </p>
       </div>
     </div>
     <footer></footer>
