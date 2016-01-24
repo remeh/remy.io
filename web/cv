@@ -112,7 +112,7 @@
           <span class="work-sub-company">Batch</span>
           <ul>
             <li>Push notifications perfectly targeted to all your mobile users. System scaled for billions of push per days. <strong>Java, Go, Cassandra, Apache Storm, Docker</strong></li>
-            <li>SaaS solution to easily create special offers for your mobile applications with remote management and complete analytics. <strong>Java, Redis, Cassandra</strong></li>
+            <li>SaaS solution to easily create special offers for your mobile applications with remote management and complete analytics. <strong>Java, Redis, Cassandra, Docker</strong></li>
           </ul>
           <span class="work-sub-company">AppGratis</span>
           <ul>
@@ -233,7 +233,7 @@
         <div class="work-label">
           <div class="row">
             <div class="col-md-9">
-              <span class="diploma-title"><strong>Ecole supérieure de Chimie Physique Electronique de Lyon / CPE Lyon</strong></span>
+              <span class="misc-title"><strong>Ecole supérieure de Chimie Physique Electronique de Lyon / CPE Lyon</strong></span>
             </div>
             <div class="col-md-3">
               <span class="work-period pull-right">2009-09 / 2012-09</span>
@@ -241,7 +241,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <span class="diploma-details">
+              <span class="misc-details">
                 Engineering Degree in networks and programming
               </span>
             </div>
@@ -252,7 +252,7 @@
         <div class="work-label">
           <div class="row">
             <div class="col-md-9">
-              <span class="diploma-title"><strong>IUT Annecy-le-Vieux</strong></span>
+              <span class="misc-title"><strong>IUT Annecy-le-Vieux</strong></span>
             </div>
             <div class="col-md-3">
               <span class="work-period pull-right">2006-09 / 2008-09</span>
@@ -260,7 +260,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <span class="diploma-details">
+              <span class="misc-details">
                 DUT Informatique
               </span>
             </div>
@@ -271,7 +271,7 @@
         <div class="work-label">
           <div class="row">
             <div class="col-md-9">
-              <span class="diploma-title"><strong>Cambridge Certificate of Advanced English (CAE)</strong></span>
+              <span class="misc-title"><strong>Cambridge Certificate of Advanced English (CAE)</strong></span>
             </div>
             <div class="col-md-3">
               <span class="work-period pull-right">2012-06</span>
@@ -279,8 +279,32 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <span class="diploma-details">
+              <span class="misc-details">
                 C2 European Level
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content-cv">
+      <h2 style="color: #ccc;" class="text-center">Misc</h2>
+      <div class="cv-container">
+
+        <div class="work-label">
+          <div class="row">
+            <div class="col-md-9">
+              <span class="misc-title"><strong>Golang Lyon Meetup organizer</strong></span>
+            </div>
+            <div class="col-md-3">
+              <span class="work-period pull-right">2015-08 / Nowadays</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span class="misc-details">
+                I manage the Golang meetups in Lyon. It includes the organization of presentations from various professional users and developers of the Go language plus the organization of coding parties to help people discover the language and its framework.
               </span>
             </div>
           </div>
