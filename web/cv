@@ -41,6 +41,12 @@
           </ul>
         </div>
       </div>
+      <div class="printable-cv pull-right">
+        <a href="RemyMathieu-CV.pdf" title="Remy Mathieu CV">
+          <img class="pull-ri" src="file.png" style="width: 10%; height: 10%;"></img>
+           Click here for printable version
+        </a>
+      </div>
     </div>
     <div class="container">
       <div class="row-fluid">
@@ -321,6 +327,7 @@
             <li><strong>GitHub</strong> <a href='https://github.com/remeh' title='Rémy Mathieu on Github'>remeh</a></li>
             <li><strong>Twitter</strong> <a href='https://twitter.com/remeh' title='Rémy Mathieu on Twitter'>remeh</a></li>
             <li><strong>LinkedIn</strong> <a href='http://www.linkedin.com/profile/view?id=183983433' title='Rémy Mathieu on LinkedIn'>Rémy Mathieu</a></li>
+            <li><strong>Printable CV</strong> <a href='RemyMathieu-CV.pdf' title="Rémy Mathieu CV">Click here</a></li>
           </ul>
         </div>
       </div>
