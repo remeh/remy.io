@@ -21,8 +21,11 @@ hr {
   box-shadow: 0 0 1px 1px #efefef;
 }
 
-ul#list-intro li {
-  padding-left: 3em;
+
+@media screen and (min-width: 480px) {
+  ul#list-intro li {
+    padding-left: 3em;
+  }
 }
 
 span.green {
@@ -163,12 +166,14 @@ footer {
   border-color: #8BCE55;
 }
 
-.flex-content {
-  padding-top: 2em;
-  flex: 2 0 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+@media screen and (min-width: 480px) {
+  .flex-content {
+    padding-top: 2em;
+    flex: 2 0 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 #overplayer {
