@@ -115,6 +115,16 @@ span.smaller {
   box-shadow: 3px 3px 8px #e8e8e8;
 }
 
+@media screen and (max-width: 480px) {
+  div.description {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+}
+
 .cv-container:hover {
   box-shadow: 3px 3px 8px #dbdbdb;
 }
