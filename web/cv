@@ -29,11 +29,11 @@
     </script>
   </head>
   <body>
-    <div class="container">
+    <div class="container menu-container">
       <div class="row">
         <div class="col-md-10">
-          <ul class="nav nav-pills" id="menu">
-            <li class="text-center">
+          <ul class="nav nav-pills text-center" id="menu">
+            <li>
               <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar"> 
             </li>
             <li role="presentation"><a href="/" title="Home page - Rémy Mathieu">About</a></li>
@@ -42,8 +42,8 @@
         </div>
       </div>
       <div class="printable-cv pull-right">
-        <a href="RemyMathieu-CV.pdf" title="Remy Mathieu CV">
-          <img class="pull-ri" src="file.png" style="width: 10%; height: 10%;"></img>
+        <a class='btn btn-download' href="RemyMathieu-CV.pdf" title="Remy Mathieu CV">
+          <img src="file.png" style="width: 10%; height: 10%;"></img>
            Click here for printable version
         </a>
       </div>
@@ -162,11 +162,13 @@
         </div>
       </div>
 
-      <div class="cv-container" id="show-internships">
-        <div class="text-center">
-          <a style="cursor: pointer;" onclick="showInternships()">See internships</a>
+      <a style="cursor: pointer;" onclick="showInternships()">
+        <div class="cv-container cv-container-with-hover" id="show-internships">
+          <div class="text-center">
+            See internships
+          </div>
         </div>
-      </div>
+      </a>
 
       <div class="cv-container internship" style="display: none;">
 
@@ -318,7 +320,7 @@
       </div>
     </div>
     
-    <div class="container content-cv" id="contact-container">
+    <div class="container content-cv">
       <h2 style="color: #ccc;" class="text-center">Contact</h2>
       <div class="cv-container">
         <div class="row description">
@@ -332,5 +334,6 @@
         </div>
       </div>
     </div>
+    <footer></footer>
   </body>
 </html>

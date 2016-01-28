@@ -9,11 +9,19 @@ body {
   flex-direction: column;
   font-size: 1.4em;
 }
-
 img#gravatar {
   border-radius: 60px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  margin-right: 1em;
+  margin-left: 3px;
+}
+ 
+@media screen and (min-width: 480px) {
+  img#gravatar {
+    margin-right: 1em;
+  }
+  ul#list-intro li {
+    padding-left: 3em;
+  }
 }
 
 hr {
@@ -21,12 +29,6 @@ hr {
   box-shadow: 0 0 1px 1px #efefef;
 }
 
-
-@media screen and (min-width: 480px) {
-  ul#list-intro li {
-    padding-left: 3em;
-  }
-}
 
 span.green {
   color: #8bce55
@@ -128,7 +130,7 @@ span.smaller {
   }
 }
 
-.cv-container:hover {
+.cv-container-with-hover:hover {
   box-shadow: 3px 3px 8px #dbdbdb;
 }
 
@@ -252,8 +254,8 @@ button.contact-me {
   width: 100%;
   font-weight: bold;
 }
-#contact-container {
-  margin-bottom: 2em;
+footer {
+  margin-bottom: 3em;
 }
 .work-job-details {
   font-size: 0.7em;
@@ -261,4 +263,19 @@ button.contact-me {
 }
 .project-row {
   margin-bottom: 3em;
+}
+
+@media screen and (max-width: 480px) {
+  .cv-container {
+    margin: 5px;
+  }
+  .content-cv {
+    margin: 0px;
+    padding-left: 2px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .menu-container {
+    width: 100%;
+  }
 }
