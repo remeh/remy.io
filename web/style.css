@@ -196,7 +196,7 @@ img.os {
 
 .os-cell {
   padding-top: 1em;
-  height: 220px;
+  min-height: 220px;
 }
 
 p.sources {
