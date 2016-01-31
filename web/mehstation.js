@@ -29,6 +29,5 @@ function onStart() {
     p[0].style.display = 'inherit';
     p[0].style.height = '620px';
     player_target.playVideo();
-    mixpanel.track('mehstation video start');
   }
 }
