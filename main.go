@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-	if len(os.Getenv("DOCKER")) > 0 {
-		http.Handle("/", http.FileServer(http.Dir("/remy.io/web/")))
-	} else {
+	if len(os.Getenv("LOCAL")) > 0 {
 		http.Handle("/", http.FileServer(http.Dir("web/")))
+	} else {
+		http.Handle("/", http.FileServer(http.Dir("/home/webapps/live/remy.io/web/")))
 	}
 
 	http.ListenAndServe(":8080", nil)
