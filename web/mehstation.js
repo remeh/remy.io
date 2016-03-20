@@ -20,8 +20,6 @@ function onPlayerReady(event) {
 function onStart() {
   var o = document.querySelectorAll('#overplayer');
   var p = document.querySelectorAll('#player');
-  console.log(o);
-  console.log(p);
   if (o.length > 0 && p.length > 0 && player_target) {
     o[0].style.visibility = 'hidden';
     o[0].style.display = 'none';
@@ -29,5 +27,6 @@ function onStart() {
     p[0].style.display = 'inherit';
     p[0].style.height = '620px';
     player_target.playVideo();
+    mixpanel.track("mehstation 1.0 video");
   }
 }
