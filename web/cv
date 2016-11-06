@@ -40,7 +40,8 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
             <li>
               <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar"> 
             </li>
-            <li role="presentation"><a href="/" title="Home page - Rémy Mathieu">About</a></li>
+            <li role="presentation"><a href="/" title="Home page - Rémy Mathieu">Home</a></li>
+            <li role="presentation" class="menu"><a href="/#projects" title="Some of my projects">Projects</a></li>
             <li role="presentation" class="active"><a href="#" title="CV - Rémy Mathieu">CV</a></li>
           </ul>
         </div>

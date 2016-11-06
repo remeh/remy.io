@@ -9,6 +9,20 @@
     <meta name="description" content="upd, file sharing, cli, android application, iphone application">
   </head>
   <body>
+    <div class="container menu-container">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="nav nav-pills text-center" id="menu">
+            <li>
+              <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar">
+            <li role="presentation" class="menu"><a href="/" title="Home page - Rémy Mathieu">Home</a></li>
+            <li role="presentation" class="menu"><a href="/#projects" title="Some of my projects">Projects</a></li>
+            <li role="presentation" class="menu"><a href="/cv" title="CV - Rémy Mathieu">CV</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row-fluid">
         <div class="col-lg-12">

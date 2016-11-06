@@ -14,6 +14,20 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
     mixpanel.init("ffdabb16807c7bb3c9fea44dba845f63"); mixpanel.track('mehstation');</script>
   </head>
   <body>
+    <div class="container menu-container">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="nav nav-pills text-center" id="menu">
+            <li>
+              <img id="gravatar" src="https://gravatar.com/avatar/2a402d11cdf4db8e13002f95da6b0a06?s=50" alt="Rémy Mathieu's avatar">
+            <li role="presentation" class="menu"><a href="/" title="Home page - Rémy Mathieu">Home</a></li>
+            <li role="presentation" class="menu"><a href="/#projects" title="Some of my projects">Projects</a></li>
+            <li role="presentation" class="menu"><a href="/cv" title="CV - Rémy Mathieu">CV</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row-fluid">
         <div class="col-lg-12">
