@@ -59,8 +59,9 @@ a {
 }
 
 div.title-container {
-  padding: 1em;
-  padding-left: 0;
+  padding: 0em;
+  padding-top: 1em;
+  margin-bottom: 4em;
   text-align: center;
 }
 
@@ -204,8 +205,10 @@ p.sources {
 }
 
 h1.project-title {
-  font-size: 5em;
-  letter-spacing: -6px;
+  font-size: 3em;
+  letter-spacing: 5px;
+  color: #333333;
+  font-weight: bold;
 }
 
 span.work-company {
@@ -260,7 +263,7 @@ footer {
   font-size: 0.7em;
   margin: 0px;
 }
-.project-row {
+.project-container {
   margin-bottom: 3em;
 }
 
@@ -277,4 +280,8 @@ footer {
   .menu-container {
     width: 100%;
   }
+}
+
+.shadow {
+  box-shadow: 2px 2px 5px #aaaaaa;
 }
