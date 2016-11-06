@@ -44,12 +44,12 @@
         </div>
         <div class="col-lg-2">
           <a href="https://c.remy.io/Le1HaJ9M" alt="Click for fullscreen" target="_blank">
-            <img src="https://c.remy.io/Le1HaJ9M?h=180&w=180" alt="Mac app" />
+            <img class="shadow" src="https://c.remy.io/Le1HaJ9M?h=180&w=180" alt="Mac app" />
           </a>
         </div>
         <div class="col-lg-2">
           <a href="https://c.remy.io/qzAHLCo7" alt="Click for fullscreen" target="_blank">
-            <img src="https://c.remy.io/qzAHLCo7?h=180&w=100" alt="Android app" />
+            <img class="shadow" src="https://c.remy.io/qzAHLCo7?h=180&w=100" alt="Android app" />
           </a>
         </div>
       </div>

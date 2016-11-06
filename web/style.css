@@ -24,6 +24,18 @@ img#gravatar {
   }
 }
 
+@media screen and (max-device-width: 480px) {
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    text-align: center;
+  }
+  img {
+    text-align: center;
+  }
+}
+
 hr {
   border: 0;
   box-shadow: 0 0 1px 1px #ededed;
